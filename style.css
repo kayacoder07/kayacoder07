@@ -1,0 +1,58 @@
+body{
+	margin:0px;
+	padding:0px;
+	background-image:url("bgpic.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header{
+	margin: 0px;
+	background-color: burlywood;
+	width:100%;
+	min-height:50px;
+	padding-left: 15px;
+	position: fixed;
+}
+
+#buying{
+	display: flex;
+	flex-direction: row;
+}
+#showKilo{
+	color: red;
+}
+main{
+	padding: 110px;
+}
+.box{
+	background-color: red;
+	width:150px;
+	height:150px;
+	margin: 5px;
+	padding: 5px;
+	background-image: url("potato.jpg");
+	background-size: cover;
+}
+
+.photoBox{
+	margin: 5px;
+	background-color: burlywood;
+	width:20%;
+	min-height:120px;
+
+}
+
+#photo-displayer{
+	display: flex;
+	flex-direction: row;
+}
+.pics{
+	width:100%;
+	height: 100%;
+}
+
+.photo-caption{
+	width:80%;
+}
+
+
